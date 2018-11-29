@@ -6,15 +6,18 @@
     "react-scripts": "1.0.10"
   },
   "dependencies": {
+    "dotenv": "^6.1.0",
     "eslint-plugin-flowtype": "^2.35.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.1.0",
     "material-ui": "^0.18.6",
+    "prompt-sync": "^4.1.6",
     "react": "^15.6.1",
     "react-alert": "^4.0.4",
     "react-dom": "^15.6.1",
-    "react-tap-event-plugin": "^2.0.1"
+    "react-tap-event-plugin": "^2.0.1",
+    "watson-developer-cloud": "^3.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
