@@ -7,7 +7,7 @@ import "./App.css";
 import Form from "./Form";
 import Table from "./Table";
 import Button from "./Button";
-import {tryy} from "./try";
+import {tryy } from "./try";
 
 injectTapEventPlugin();
 
@@ -46,15 +46,8 @@ class App extends Component {
               }
             ]}
           />
-          <button onClick = {tryy}> CRIAR DIALOGO</button>
-          {/* <Button 
-            onSubmit = {
-              submission =>
-              this.setState({
-                dialog: [submission]
-              })
-            }
-          /> */}
+          {/* <button onClick = {Try} dados = {this.state.data}> CRIAR DIALOGO</button> */}
+          <Button dados = {this.state.data}   />
         </div>
       </MuiThemeProvider>
     );

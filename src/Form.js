@@ -18,6 +18,8 @@ export default class Form extends React.Component {
 
   onSubmit = e => {
     e.preventDefault();
+    console.log("EXIBINDO O CONTEUDO DO PROPS - Form");
+    console.log(this.props)
     this.props.onSubmit(this.state);
     // clear form
     this.setState({
